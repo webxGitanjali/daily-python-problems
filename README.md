@@ -32,6 +32,8 @@ Code: Answer -
 Problem 3: Statement -
 Write a program that takes a lowercase word as input and counts how many vowels (a, e, i, o, u) it contains.
 Then print the number of vowels in the word.
+
+Code: Answer - 
     
     word = input("Enter a word: ")
     vowel_count = (
