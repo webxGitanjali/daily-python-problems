@@ -6,7 +6,7 @@ You're given a string s which is a word (no spaces). Write a program to check:
 If the length of the word is even, print "EVEN LENGTH".
 If the length is odd, print "ODD LENGTH".
 
-Code: Answer -
+Code:
 
     s = input("Enter a word: ")
 
@@ -20,7 +20,7 @@ You’re given a string. Write a program to check if the first and last characte
 If they match, print "MATCH".
 Otherwise, print "NO MATCH".
 
-Code: Answer -
+Code:
 
     word = input("Enter a word: ")
 
@@ -33,7 +33,7 @@ Problem 3: Statement -
 Write a program that takes a lowercase word as input and counts how many vowels (a, e, i, o, u) it contains.
 Then print the number of vowels in the word.
 
-Code: Answer - 
+Code:
     
     word = input("Enter a word: ")
     vowel_count = (
@@ -50,13 +50,41 @@ Problem 4: Statemet -
 print the elements of the following list using a loop.
 list - [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 
-Code: Answer -
+Code:
 
     num = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
     index = 0
     while index < len(num):
         print(num[index])
         index += 1
+
+Problem 5: Statement - 
+print the multiplication table of a number n
+
+Code:
+
+    n = int(input("Enter n : "))
+    i = 1
+    while i<=10:
+        print(n*i)
+        i += 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
