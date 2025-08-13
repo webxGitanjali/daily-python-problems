@@ -69,8 +69,20 @@ Code:
         print(n*i)
         i += 1
 
+Problem 6: Statement -
+search for a number x in this tuple using loop:
+Tuple - (1, 4, 9, 16, 25, 36, 49, 64, 81, 100)
 
+Code:
 
+    tup = (1, 4, 9, 16, 25, 36, 49, 64, 81, 100)
+    x = int(input("Entr number: "))
+    index = 0
+    while index < len(tup):
+        if (tup[index] == x):
+            print("found at index",index)
+            break
+        index += 1
 
 
 
