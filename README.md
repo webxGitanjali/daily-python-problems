@@ -84,7 +84,27 @@ Code:
             break
         index += 1
 
+You have a fixed amount of money in your wallet and you spend it on various activities during the week. In this task, you’ll calculate:
 
+The total money spent.
+The remaining balance in your wallet after subtracting those expenses.
+Data Values
+• Initial wallet balance: $100
+• Groceries expense: $30
+• Entertainment expense: $20
+
+Expected Output
+If the total money spent is 50 and the remaining balance is 50 , then the output should be:
+
+    initial_wallet_balance = 100
+    Groceries_expense = 30
+    Entertainment_expense = 20
+
+    total_money_spent = Groceries_expense + Entertainment_expense
+    remaining_balance = initial_wallet_balance - total_money_spent
+
+    print(total_money_spent)
+    print(remaining_balance)
 
 
 
