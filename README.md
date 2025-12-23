@@ -84,7 +84,7 @@ Code:
             break
         index += 1
 
-You have a fixed amount of money in your wallet and you spend it on various activities during the week. In this task, you’ll calculate:
+Problem 7: You have a fixed amount of money in your wallet and you spend it on various activities during the week. In this task, you’ll calculate:
 
 The total money spent.
 The remaining balance in your wallet after subtracting those expenses.
@@ -95,6 +95,8 @@ Data Values
 
 Expected Output
 If the total money spent is 50 and the remaining balance is 50 , then the output should be:
+
+code:
 
     initial_wallet_balance = 100
     Groceries_expense = 30
@@ -107,6 +109,35 @@ If the total money spent is 50 and the remaining balance is 50 , then the output
     print(remaining_balance)
 
 
+Problem 9: You are given a dictionary:
+
+student = {
+    "name": "Aarav",
+    "age": 20,
+    "course": "Python"
+}
+
+
+Task:
+Write a program to:
+
+Check 
+1) if the key "age" exists in the dictionary.
+
+2) If it exists, print its value.
+
+3) Otherwise, print "Key not found".
+
+        student  = {
+            "name" : "Array",
+            "age" : 20,
+            "course" : "Python"
+        }
+
+        if "age" in student:
+            print("age key is in student and it is", student["age"])
+        else:
+            print("does not exists")
 
 
 
