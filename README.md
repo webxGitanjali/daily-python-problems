@@ -1,5 +1,5 @@
 # daily-python-problems
-# New python problems everyday
+# New python problems everyday  
 
 Problem  1: Statement -
 You're given a string s which is a word (no spaces). Write a program to check:
