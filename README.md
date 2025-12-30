@@ -1,4 +1,4 @@
-# daily-python-problems
+# daily-python-problems wer
 # New python problems everyday
 
 Problem  1: Statement -
