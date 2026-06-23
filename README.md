@@ -166,8 +166,17 @@ Problem 10: Declare a variable "temperature" and initialize it with a value of 2
     print("Celsius - ",temperature)
     print("Kelvin - ",temperature + 273)
 
+Problem 11: Write a program to find the area and perimeter of square whose side length is 4.5. On the first line, print square's area and on the second line, its perimeter.
+Note: Area of a Square = side × side and, Perimeter = 4 x side
 
+    side_of_square = 4.5
 
+    Area_of_square = side_of_square *side_of_square
+
+    Perimeter_of_square = 4 * side_of_square
+
+    print(Area_of_square)
+    print(Perimeter_of_square)
 
 
 
