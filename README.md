@@ -159,7 +159,12 @@ Check
         else:
             print("does not exists")
 
+Problem 10: Declare a variable "temperature" and initialize it with a value of 25.5 (in Celsius) and print it in Celsius and Kelvin (add 273 to the temperature in Celsius).
 
+    temperature = 25.5
+
+    print("Celsius - ",temperature)
+    print("Kelvin - ",temperature + 273)
 
 
 
