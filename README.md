@@ -178,6 +178,22 @@ Note: Area of a Square = side × side and, Perimeter = 4 x side
     print(Area_of_square)
     print(Perimeter_of_square)
 
+Write a program to check whether a number given as user input is positive, negative, or zero.
+
+    n = int(input())
+
+    if n < 0:
+        print("Negative")
+    elif n == 0:
+        print("Zero")
+    else:
+        print("Positive")
+
+
+
+
+
+
 
 
 
