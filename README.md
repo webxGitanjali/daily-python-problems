@@ -189,6 +189,29 @@ Write a program to check whether a number given as user input is positive, negat
     else:
         print("Positive")
 
+Problem 12: Grades of Student
+Write a program to print the grade of a student based on the marks he/she has obtained.
+
+Grading Rules
+
+Grade A → Marks > 90
+Grade B → Marks > 70
+Grade C → Marks ≥ 40
+Grade F → Marks < 40
+
+    Marks = int(input())
+
+    if Marks > 90:
+        print('A')
+    elif Marks > 70 and Marks <= 90:
+        print('B')
+    elif Marks >= 40 and Marks <= 70:
+        print('C')
+    elif Marks < 40:
+        print('F')
+    else:
+        print("Thank you")
+
 
 
 
