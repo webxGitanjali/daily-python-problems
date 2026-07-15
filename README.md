@@ -233,7 +233,7 @@ code:
         factorial = factorial*n
         n -= 1
     
-    print(factorial)
+    print(factorial) 
 
 
 
