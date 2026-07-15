@@ -213,6 +213,29 @@ Grade F → Marks < 40
         print("Thank you")
 
 
+Problem 13: Write a program that utilizes a while loop to print the squares of numbers from 1 to N.
+
+code: 
+
+    num = int(input())
+    N = 1
+    while N <= num:
+        print(N*N, end = " ")
+        N += 1
+
+Problem 14: Write a program that uses a while loop to find the factorial of a given number.
+
+code:
+
+    n = int(input())
+    factorial = 1
+    while n > 0:
+        factorial = factorial*n
+        n -= 1
+    
+    print(factorial)
+
+
 
 
 
